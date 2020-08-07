@@ -55,3 +55,6 @@ During a run, the data collected on an event-by-event basis is histogrammed into
 * The ninth histogram, labeled "PIPS Detector -  Measured Spectrum", records the measured or deposited energy in the Canberra PD450-15-500AM PIPS detector.
 * The tenth histogram, labeled "PIPS Detector -  Energy Migration Matrix (Gamma)", records a 2D histogram of the true kinetic energy versus measured/deposited energy in the Canberra PD450-15-500AM PIPS detector from gamma-rays.
 * The eleventh histogram, labeled "PIPS Detector -  Energy Migration Matrix (Electron)", records a 2D histogram of the true kinetic energy versus measured/deposited energy in the Canberra PD450-15-500AM PIPS detector from electrons.
+
+## Simulation Pictures
+
