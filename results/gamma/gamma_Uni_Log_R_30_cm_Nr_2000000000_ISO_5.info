@@ -1,0 +1,20 @@
+==== Simulation Information ======================================================
+
+Run ID: 			5
+Start Time: 		Mon Aug 17 17:32:09 2020
+End Time: 			Tue Aug 18 04:10:54 2020
+Elapsed Time: 		38325 seconds
+
+=== Source Information ===========================================================
+
+Source Radius: 		30 cm
+Number of Events: 	2000000000
+
+=== Detector Information =========================================================
+
+Energy Resolution: 	5 %
+Minimum Energy: 	10 keV
+Maximum Energy: 	10000 keV
+# of Energy Bins: 	60 log bins
+
+==================================================================================
