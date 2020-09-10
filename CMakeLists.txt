@@ -42,9 +42,11 @@ set(G4MCMASTERTDS_SCRIPTS
   macros/runElectronUniformLogISO.mac
   macros/runGammaUniformLogISO.mac
   macros/runCl36ISO.mac
+  macros/runFe59ISO.mac
   macros/runCo60ISO.mac
   macros/runSr90Y90ISO.mac
   macros/runCs137ISO.mac
+  macros/runGammaPowerElectronGaussianISO.mac
 )
 
 foreach(_script ${G4MCMASTERTDS_SCRIPTS})
