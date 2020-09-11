@@ -5,6 +5,8 @@
 /control/alias alpha -3
 /control/alias Emean 600
 /control/alias Esigma 600
+/control/alias gamma_intensity 5
+/control/alias beta_intensity 1
 /control/alias R 30
 /control/alias N_R 2000000000
 /control/listAlias
@@ -27,7 +29,7 @@
 ##########################
 # Set name for the output file
 #
-/analysis/setFileName gamma_Power_{Emin}_{Emax}_keV_alpha_{alpha}_electron_Gauss_{Emean}_{Esigma}_keV_R_{R}_cm_Nr_{N_R}_ISO
+/analysis/setFileName gamma_Power_{Emin}_{Emax}_keV_alpha_{alpha}_intensity_{gamma_intensity}_electron_Gauss_{Emean}_{Esigma}_keV_intensity_{beta_intensity}_R_{R}_cm_Nr_{N_R}_ISO
 
 ##########################
 # Initialisation procedure
@@ -37,7 +39,7 @@
 ##########################
 # Create the first particle.  This can be done using any of the GPS macro
 # commands. 
-/gps/source/intensity 1
+/gps/source/intensity {gamma_intensity}
 /gps/particle gamma
 /gps/ene/type Pow
 /gps/ene/min {Emin} keV
@@ -54,7 +56,7 @@
 ##########################
 # Create the second particle.  This can be done using any of the GPS macro
 # commands.  The position will be overridden below.
-/gps/source/add 1
+/gps/source/add {beta_intensity}
 /gps/particle e-
 /gps/ene/type Gauss
 /gps/ene/mono {Emean} keV
