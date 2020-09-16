@@ -5,7 +5,7 @@
 /control/alias alpha -3
 /control/alias Emean 600
 /control/alias Esigma 600
-/control/alias gamma_intensity 5
+/control/alias gamma_intensity 1000
 /control/alias beta_intensity 1
 /control/alias R 30
 /control/alias N_R 2000000000
