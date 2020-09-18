@@ -1,0 +1,10 @@
+
+Statistics from reconstructed Beta-ray Fluence Spectrum                
+-------------------------------------------------------                
+RMSE 	4.24E+03 (4.38E+03 - 4.09E+03)                
+MAE 	2.18E+03 (2.26E+03 - 2.11E+03)
+
+Statistics from reconstructed Gamma-ray Fluence Spectrum                
+-------------------------------------------------------                
+RMSE 	1.37E+05 (3.95E+04 - 2.26E+05)                
+MAE 	4.22E+04 (1.42E+04 - 6.88E+04)
